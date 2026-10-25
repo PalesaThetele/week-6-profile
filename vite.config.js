@@ -2,6 +2,6 @@ import { defineConfig } from 'vite'
 import react from '@vitejs/plugin-react'
 
 export default defineConfig({
+  base: '/week-6-profile/', 
   plugins: [react()],
-  base: '/week-5-profile/', 
 })
