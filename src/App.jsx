@@ -67,7 +67,7 @@ function AppLayout() {
 
 export default function App() {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename="/week-6-profile">
       <AppLayout />
     </BrowserRouter>
   );
